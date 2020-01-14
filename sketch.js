@@ -102,3 +102,6 @@ function draw() {
   text("Adjust Period ( " + rose.period + " )", 140,  height -  10);
 }
 
+function mouseClicked() {
+  rose.color = color(random()*256,random()*256,random()*256);
+}
